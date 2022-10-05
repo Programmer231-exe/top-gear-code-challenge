@@ -1,0 +1,95 @@
+{
+  "users": [
+    {
+      "username": "sivasankar",
+      "password": "password"
+    },
+    {
+      "username": "noprojectuser",
+      "password": "password"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project #1",
+      "created_at": "5m ago",
+      "thumbnail": "/thumbnail.png"
+    },
+    {
+      "name": "Project #2",
+      "created_at": "5m ago",
+      "thumbnail": "/thumbnail.png"
+    },
+    {
+      "name": "Project #3",
+      "created_at": "5m ago",
+      "thumbnail": "/thumbnail.png"
+    },
+    {
+      "name": "Project #4",
+      "created at": "5m ago",
+      "thumbnail": "/thumbnail.png"
+    },
+    {
+      "name": "Project #5",
+      "created_at": "5m ago",
+      "thumbnail": "/thumbnail.png"
+    },
+    {
+      "name": "Project #6",
+      "created_at": "5m ago",
+      "thumbnail": "/thumbnail.png"
+    },
+    {
+      "name": "Project #7",
+      "created_at": "5m ago",
+      "thumbnail": "/thumbnail.png"
+    },
+    {
+      "name": "Project #8",
+      "created_at": "5m ago",
+      "thumbnail": "/thumbnail.png"
+    },
+    {
+      "name": "Project #9",
+      "created_at": "5m ago",
+      "thumbnail": "/thumbnail.png"
+    }
+  ],
+  "project-details": [
+    {
+      "id": "project",
+      "project": {
+        "name": "Project #1",
+        "created_at": "Dec 23 2020",
+        "thumbnail": "/thumbnail.png"
+      },
+      "devices": 5,
+      "events": 3,
+      "description": "This is the description related to the selected project",
+      "last_updated_on": "Dec 24 2022"
+    }
+  ],
+  "map-response": {
+    "origin": [0, 0],
+    "circleCoordinates": [
+      {
+        "radius": 10,
+        "coordinates": [74.006, 40.7128]
+      }
+    ],
+    "polygonCoordinates": [
+      [
+        [-74.006, 40.7128],
+        [-74.006, 40.7128],
+        [-74.006, 40.7128]
+      ]
+    ]
+  },
+  "quotes": [
+    {
+      "id": "username",
+      "searchCount": 5
+    }
+  ]
+}

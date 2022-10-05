@@ -1,0 +1,58 @@
+{
+  "name": "geo-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite serve",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.18.9",
+    "@emotion/css": "^11.10.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/joy": "^5.0.0-alpha.47",
+    "@mui/lab": "^5.0.0-alpha.97",
+    "@mui/material": "^5.10.3",
+    "@types/chalk": "^2.2.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.1",
+    "chalk": "^5.0.1",
+    "execa": "^6.1.0",
+    "firebase": "^9.9.4",
+    "google-map-react": "^2.2.0",
+    "json-server": "^0.17.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-material-ui-carousel": "^3.4.2",
+    "react-offline-map": "^0.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-simple-maps": "^3.0.0",
+    "recoil": "^0.7.5",
+    "validator": "^13.7.0",
+    "vite-logger": "^0.0.1"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.10.2",
+    "@types/bootstrap": "^5",
+    "@types/google-map-react": "^2",
+    "@types/jest": "^29.0.0",
+    "@types/json-server": "^0",
+    "@types/node": "^18.7.23",
+    "@types/react": "^18.0.18",
+    "@types/react-bootstrap": "^0.32.30",
+    "@types/react-dom": "^18.0.6",
+    "@types/validator": "^13.7.7",
+    "@vitejs/plugin-react": "^2.0.1",
+    "envars": "^0.4.0",
+    "vite": "^3.0.9"
+  },
+  "envars": {
+    "cwd": "../env"
+  }
+}
