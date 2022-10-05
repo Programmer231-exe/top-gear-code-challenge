@@ -125,5 +125,7 @@
     "react-offline-map": "^0.3.0",
     "react-simple-maps": "^3.0.0",
     "validator": "^13.7.0"
+  },"engines": {
+    "node": "16.x"
   }
 }
