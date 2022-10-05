@@ -5,22 +5,12 @@
   "packageManager": "yarn@4.0.0-rc.15",
   "type": "module",
   "workspaces": [
-    "app",
-    "edge",
     "geo-app"
   ],
   "scripts": {
-    "postinstall": "husky install && zx ./scripts/postinstall.js",
-    "update-schema": "zx ./scripts/update-schema.js",
     "start": "yarn run dev",
     "lint": "eslint --cache --report-unused-disable-directives .",
     "test": "jest",
-    "build": "yarn workspaces foreach -ti run build",
-    "app:start": "yarn workspace app start",
-    "app:build": "yarn workspace app build",
-    "app:preview": "yarn workspace app preview",
-    "app:deploy": "yarn workspace app deploy",
-    "geo-app:start": "yarn workspace geo-app start",
     "dev": "concurrently \"json-server ./geo-app/mock/mock.json --port 4000\" \"yarn workspace geo-app start\""
   },
   "devDependencies": {
@@ -122,10 +112,10 @@
     "prop-types": "^15.8.1",
     "react-dom": "^18.2.0",
     "react-material-ui-carousel": "^3.4.2",
-    "react-offline-map": "^0.3.0",
     "react-simple-maps": "^3.0.0",
     "validator": "^13.7.0"
-  },"engines": {
+  },
+  "engines": {
     "node": "16.x"
   }
 }
