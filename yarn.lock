@@ -3720,9 +3720,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:>=12.12.47, @types/node@npm:>=13.7.0, @types/node@npm:^18.6.3, @types/node@npm:^18.7.23":
-  version: 18.8.1
-  resolution: "@types/node@npm:18.8.1"
-  checksum: c499abe8b4bb075060d78a8b5251ddb77f6b58692c6ae8deba1557bc4ea58089735e68f1aab993d35377bbbb57026f27518b243159331d898ed0bf6777b74acc
+  version: 18.8.2
+  resolution: "@types/node@npm:18.8.2"
+  checksum: 2a199f877777148eb536f92ca19543e2cff54cfbf966642325f10cffcbeb3ef0a0b456cc766287e1e560946c5c3024f0d310a6345d566d3918d4c9bfcede4c7d
   languageName: node
   linkType: hard
 
@@ -5152,9 +5152,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001400":
-  version: 1.0.30001415
-  resolution: "caniuse-lite@npm:1.0.30001415"
-  checksum: f52613baf8f8e1ba99259086153fe7218ebedec47f73f92b6374ab81d317340c15b17da82de6e303e0e0b38c2e97e396a58dbdaf7242016b64d43ab8399c2ed1
+  version: 1.0.30001416
+  resolution: "caniuse-lite@npm:1.0.30001416"
+  checksum: d68e847ead823f9fe91d473b81249ed345225465d2e056dc5d8466e7a6e834371b77e26bb33924b4f5755b4ebb631fa1df5d497717f81957d75e297af4d50cc9
   languageName: node
   linkType: hard
 
@@ -6260,9 +6260,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.251":
-  version: 1.4.271
-  resolution: "electron-to-chromium@npm:1.4.271"
-  checksum: 8c2db29d22488271f6cbe317150618f906eb3c616ce1a063d587bb39d5890bd9ab0be88d3e73652039bf81b19ebadbeef0e062f381aed52cd8e6f18eb61cbd64
+  version: 1.4.272
+  resolution: "electron-to-chromium@npm:1.4.272"
+  checksum: 7cfd51f248c4860ccb8c7ae512e73d62dd33d23882648d69493ae14f87daea99944b8658e4c1978a4f33cd7167854e42f454b9fe680110c9d445de75d335fb7b
   languageName: node
   linkType: hard
 
@@ -7941,9 +7941,7 @@ __metadata:
     bootstrap: "npm:^5.2.1"
     chalk: "npm:^5.0.1"
     envars: "npm:^0.4.0"
-    execa: "npm:^6.1.0"
     firebase: "npm:^9.9.4"
-    google-map-react: "npm:^2.2.0"
     json-server: "npm:^0.17.0"
     react: "npm:^18.2.0"
     react-bootstrap: "npm:^2.5.0"
@@ -12835,7 +12833,6 @@ __metadata:
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
     react-material-ui-carousel: "npm:^3.4.2"
-    react-offline-map: "npm:^0.3.0"
     react-simple-maps: "npm:^3.0.0"
     relay-config: "npm:^12.0.1"
     rollup: "npm:^2.79.0"
@@ -12976,13 +12973,13 @@ __metadata:
   linkType: hard
 
 "semver@npm:^7.0.0, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7":
-  version: 7.3.7
-  resolution: "semver@npm:7.3.7"
+  version: 7.3.8
+  resolution: "semver@npm:7.3.8"
   dependencies:
     lru-cache: "npm:^6.0.0"
   bin:
     semver: bin/semver.js
-  checksum: 67bcf24790dcba9c20b2cd4c8ade19eebbcb10c8868453570749b47b77bd5c7da503478997a7a3f663d5b2976ac39c545f38d2d9e7dfcc693cb87f4068f93f8e
+  checksum: 94ad80ee14889020cb4a14d809fb99d16cbf4ff3dc7f4c564fc72efe2c5763a60090a1c16a9fd18ceeb1e993a1303a4d870c0a22f26adaf435b368b46a7d8462
   languageName: node
   linkType: hard
 
@@ -14770,9 +14767,9 @@ __metadata:
   linkType: hard
 
 "yaml@npm:^2.1.1":
-  version: 2.1.2
-  resolution: "yaml@npm:2.1.2"
-  checksum: 39fce5abdaf298161658419bfea27301149dacaf715a48c537af2b2fa6a8343ed9cbf71741f6f674c1aaebd37b4e08bceb23e8a51c99e63940e501ee1dcaefbf
+  version: 2.1.3
+  resolution: "yaml@npm:2.1.3"
+  checksum: 2747f51351cbf5f0d8b1cdd0e25ddfbf3cf3b7604822a1f4024f059af90679f0f6a51943f75dcac6ba119c26c58cf29ce4326aed175c2c17071414c724582389
   languageName: node
   linkType: hard
 
